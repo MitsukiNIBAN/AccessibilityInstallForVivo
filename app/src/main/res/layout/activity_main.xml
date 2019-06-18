@@ -27,6 +27,12 @@
         android:layout_margin="4dp"
         android:text="安装完成后请前往辅助功能开启该服务" />
 
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="前往辅助功能" />
+
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,5 +45,6 @@
         android:layout_height="wrap_content"
         android:autoLink="web"
         android:text="https://github.com/MitsukiNIBAN/AccessibilityInstallForVivo" />
+
 
 </LinearLayout>
