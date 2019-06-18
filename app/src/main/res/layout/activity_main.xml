@@ -11,13 +11,20 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="自动填充Vivo安装密码，请不要删除该程序，谢谢" />
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:text="修改密码请修改项目的local.properties文件中的密码：" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
-        android:gravity="center"
-        android:text="如果修改了密码，请在该项目的local.properties文件中修改密码配置并重新编译运行该程序" />
+        android:layout_margin="4dp"
+        android:text="password=“your password”" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="安装完成后请前往辅助功能开启该服务" />
 
 </LinearLayout>
