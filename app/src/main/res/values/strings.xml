@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VivoDebugHelper</string>
+    <string name="app_description">Debug install helper</string>
+    <string name="server_label">Debug install server</string>
+</resources>
